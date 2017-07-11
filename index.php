@@ -6,6 +6,6 @@
 </head>
 <body>
 <hr>
-<p>Hello, Tonya. Today is <?php echo date('jS\o\fFY');?></p>
+<p>Hello, Tonya. Today is <?php echo date('F jS, o');?></p>
 </body>
 </html>
