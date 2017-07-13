@@ -8,11 +8,11 @@
 <hr>
 <p>Hello, Tonya. Today is <?php echo date('F jS, o');?> and you are looking fabulous!</p>
 <?php
-$target=mktime(8,0,0,8,28,2017,1);
+$target=mktime(8,0,0,8,28,2017);
 $today=time();
 $difference=($target-$today);
 $days=(int)($difference/86400);
-print"You will begin your next adventure in $days days";
+print"<p>You will begin your next adventure in $days days!</p>";
 ?>
 </body>
 </html>
